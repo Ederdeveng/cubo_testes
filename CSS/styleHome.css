@@ -190,8 +190,15 @@ mark {
   text-align: center;
   gap: 1.5rem;
   padding: 4rem 1.5rem;
+  
 }
-
+@media (max-width: 768px) {
+  .conteudo-principal {
+    background-attachment: scroll; /* A imagem rola junto com a página */
+    background-position: center center;
+    background-size: cover;
+  }
+}
 .texto-conteudo {
   display: inline-flex;
   align-items: center;
@@ -326,7 +333,13 @@ mark {
   align-items: center;
   gap: 1rem;
 }
-
+@media (max-width: 768px) {
+  .anuncio{
+    background-attachment: scroll; /* A imagem rola junto com a página */
+    background-position: center center;
+    background-size: cover;
+  }
+}  
 .anuncio h2 {
   font-size: 1.8rem;
   color: var(--cyan);
