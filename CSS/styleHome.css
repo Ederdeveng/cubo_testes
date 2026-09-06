@@ -194,9 +194,7 @@ mark {
 }
 @media (max-width: 768px) {
   .conteudo-principal {
-    background-attachment: scroll; /* A imagem rola junto com a página */
-    background-position: center center;
-    background-size: cover;
+    background-image: none !important;
   }
 }
 .texto-conteudo {
