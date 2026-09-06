@@ -333,11 +333,9 @@ mark {
 }
 @media (max-width: 768px) {
   .anuncio{
-    background-attachment: scroll; /* A imagem rola junto com a página */
-    background-position: center center;
-    background-size: cover;
+    background-image: none !important;
   }
-}  
+}
 .anuncio h2 {
   font-size: 1.8rem;
   color: var(--cyan);
