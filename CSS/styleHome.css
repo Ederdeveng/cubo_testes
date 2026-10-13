@@ -57,6 +57,10 @@ body {
   color: var(--text-muted);
 }
 
+.teste {
+  color: red;
+  
+}
 .texto-gradiente {
   background: var(--grad-main);
   background-clip: text; /* Propriedade padrão para compatibilidade */
