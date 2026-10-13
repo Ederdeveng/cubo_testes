@@ -57,6 +57,11 @@ body {
   color: var(--text-muted);
 }
 
+.texto-rodape{
+  color: var(--text-muted);
+  font-size: 0.8rem;
+}
+
 .texto-gradiente {
   background: var(--grad-main);
   background-clip: text; /* Propriedade padrão para compatibilidade */
