@@ -225,6 +225,19 @@ mark {
   50% { opacity: 0.4; transform: scale(0.85); }
 }
 
+.preco{
+  align-items: center;
+  width: 8px;
+  height: 8px;
+  box-shadow: 0 0 10px var(--cyan);
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.texto-preco {
+  font-size: clamp(2rem, 5vw, 3rem); 
+}
+
+
 .conteudo-principal h1, h2, h3{
   color: var(--text-main);
   font-size: clamp(2rem, 5vw, 3.5rem);
