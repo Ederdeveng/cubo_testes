@@ -197,11 +197,12 @@ mark {
   padding: 4rem 1.5rem;
   
 }
-/*@media (max-width: 768px) {
+@media (max-width: 768px) {
   .conteudo-principal {
     background-image: none !important;
+    min-height: 15vh;
   }
-}*/
+}
 .texto-conteudo {
   display: inline-flex;
   align-items: center;
