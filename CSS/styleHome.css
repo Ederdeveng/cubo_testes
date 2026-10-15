@@ -425,11 +425,12 @@ mark {
 }
 @media (max-width: 768px){
   .secao-teste{
-    background-position: bottom;
+    background-position: top;
   }
 }
 .secao-teste h4{
   color: var(--cyan);
+  
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
 }
