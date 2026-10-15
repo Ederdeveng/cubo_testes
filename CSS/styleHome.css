@@ -90,10 +90,7 @@ mark {
 }  
 
 .imagem_fundo_2{
-  position: relative;
-  background-position: top;
-  background-size: cover;
-  background-attachment: inherit;
+ 
     
 }
 
@@ -421,6 +418,10 @@ mark {
   padding: 2rem;
   text-align: center;
   background-image: url(../img/cubosdiferentes.jpg);
+  position: relative;
+  background-position: top;
+  background-size: cover;
+  background-attachment: inherit;
   border-radius: 12px;
   border: 1px dashed var(--border-glass);
 }
