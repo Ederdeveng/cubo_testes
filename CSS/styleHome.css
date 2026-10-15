@@ -199,7 +199,7 @@ mark {
 }
 @media (max-width: 768px) {
   .conteudo-principal {
-    background-attachment: scroll;
+    background-image: none !important;
   }
 }
 .texto-conteudo {
@@ -344,7 +344,7 @@ mark {
 }
 @media (max-width: 768px) {
   .anuncio{
-    background-attachment: scroll;
+    background-image: none !important;
   }
 }
 .anuncio h2 {
@@ -425,12 +425,11 @@ mark {
 }
 @media (max-width: 768px){
   .secao-teste{
-    color: #f3f4f6;
+    background-image: none !important;
   }
 }
 .secao-teste h4{
   color: var(--cyan);
-
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
 }
