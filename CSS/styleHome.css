@@ -425,7 +425,7 @@ mark {
 }
 @media (max-width: 768px){
   .secao-teste{
-    background-position: bottom bottom;
+    background-position: center bottom !important;
   }
 }
 .secao-teste h4{
