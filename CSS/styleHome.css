@@ -183,7 +183,7 @@ mark {
   background-image: 
     linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 90%), 
     url(../img/muie.jpg);
-  background-attachment: inherit;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -197,11 +197,11 @@ mark {
   padding: 4rem 1.5rem;
   
 }
-/*@media (max-width: 768px) {
+@media (max-width: 768px) {
   .conteudo-principal {
-    background-image: none !important;
+    background-attachment: scroll;
   }
-}*/
+}
 .texto-conteudo {
   display: inline-flex;
   align-items: center;
@@ -334,7 +334,6 @@ mark {
   margin: 3rem auto;
   padding: 3rem 2rem;
   background-image: url(../img/empreendedor.jpg);
-  background-attachment: inherit;
   border: 1px solid var(--border-glass);
   border-radius: 20px;
   text-align: center;
@@ -343,11 +342,11 @@ mark {
   align-items: center;
   gap: 1rem;
 }
-/*@media (max-width: 768px) {
+@media (max-width: 768px) {
   .anuncio{
-    background-image: none !important;
+    background-attachment: scroll;
   }
-}*/
+}
 .anuncio h2 {
   font-size: 1.8rem;
   color: var(--cyan);
@@ -421,15 +420,14 @@ mark {
   padding: 2rem;
   text-align: center;
   background-image: url(../img/cubosdiferentes.jpg);
-  background-attachment: inherit;
   border-radius: 12px;
   border: 1px dashed var(--border-glass);
 }
-/*@media (max-width: 768px){
+@media (max-width: 768px){
   .secao-teste{
-    background-image: none !important;
+    background-position: bottom;
   }
-}*/
+}
 .secao-teste h4{
   color: var(--cyan);
   font-size: 1.2rem;
