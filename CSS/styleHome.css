@@ -90,7 +90,9 @@ mark {
 }  
 
 .imagem_fundo_2{
- 
+  position: relative;
+  background-position: top;
+  background-size: cover;
     
 }
 
@@ -197,7 +199,7 @@ mark {
 }
 @media (max-width: 768px) {
   .conteudo-principal {
-    background-image: none !important;
+    background-attachment: inherit !important;
   }
 }
 .texto-conteudo {
@@ -342,7 +344,7 @@ mark {
 }
 @media (max-width: 768px) {
   .anuncio{
-    background-image: none !important;
+    background-attachment: inherit !important;
   }
 }
 .anuncio h2 {
@@ -418,18 +420,14 @@ mark {
   padding: 2rem;
   text-align: center;
   background-image: url(../img/cubosdiferentes.jpg);
-  position: relative;
-  background-position: top;
-  background-size: cover;
-  background-attachment: inherit;
   border-radius: 12px;
   border: 1px dashed var(--border-glass);
 }
-/*@media (max-width: 768px){
+@media (max-width: 768px){
   .secao-teste{
     background-image: none !important;
   }
-}*/
+}
 .secao-teste h4{
   color: var(--cyan);
   font-size: 1.2rem;
