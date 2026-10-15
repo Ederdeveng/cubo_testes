@@ -93,6 +93,7 @@ mark {
   position: relative;
   background-position: top;
   background-size: cover;
+  background-attachment: inherit;
     
 }
 
@@ -423,11 +424,11 @@ mark {
   border-radius: 12px;
   border: 1px dashed var(--border-glass);
 }
-@media (max-width: 768px){
+/*@media (max-width: 768px){
   .secao-teste{
     background-image: none !important;
   }
-}
+}*/
 .secao-teste h4{
   color: var(--cyan);
   font-size: 1.2rem;
