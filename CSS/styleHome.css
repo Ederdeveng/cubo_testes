@@ -197,11 +197,11 @@ mark {
   padding: 4rem 1.5rem;
   
 }
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
   .conteudo-principal {
     background-image: none !important;
   }
-}
+}*/
 .texto-conteudo {
   display: inline-flex;
   align-items: center;
@@ -342,11 +342,11 @@ mark {
   align-items: center;
   gap: 1rem;
 }
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
   .anuncio{
     background-image: none !important;
   }
-}
+}*/
 .anuncio h2 {
   font-size: 1.8rem;
   color: var(--cyan);
@@ -423,11 +423,11 @@ mark {
   border-radius: 12px;
   border: 1px dashed var(--border-glass);
 }
-@media (max-width: 768px){
+/*@media (max-width: 768px){
   .secao-teste{
     background-image: none !important;
   }
-}
+}*/
 .secao-teste h4{
   color: var(--cyan);
   font-size: 1.2rem;
